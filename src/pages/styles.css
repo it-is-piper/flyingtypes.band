@@ -1,14 +1,21 @@
 body {
   text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: larger;
+}
+
+.wrap {
+  position: relative;
 }
 
 .content {
-  color: white;
+  position: relative;
   z-index: 2;
   opacity: 1;
 }
 
 .background {
+  position: absolute;
   height: 100vh;
   width: 100%;
   background: url("/img/band-seated.jpeg") no-repeat;
@@ -20,7 +27,7 @@ body {
 
 @font-face {
   font-family: "EB Garamond";
-  src: url("/fonts/static/EBGaramond-Regular.ttf") format("ttf");
+  src: url("/fonts/static/EBGaramond-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
